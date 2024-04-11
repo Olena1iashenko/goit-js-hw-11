@@ -4,7 +4,7 @@ export const createGalleryCards = images => {
       img => `
       <div class="card-wrapper">
   <li class="gallery-card">
-    <a href="${img.largeImageUR}"><img src="${img.webformatURL}" alt="${img.tags}" class="gallery-img" /></a>
+    <a href="${img.largeImageURL}"><img src="${img.webformatURL}" alt="${img.tags}" class="gallery-img"/></a>
     <div class="gallery-panel">
       <p>Likes ${img.likes}</p>
       <p>Views ${img.views}</p>
